@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    width: 320px;
+    background:linear-gradient(135deg,rgba(160, 160, 157, 0.23), rgb(38, 38, 37));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+}
+
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #0c0c0c;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile h2 {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.profile span {
+    color: #ccc;
+    font-size: 14px;
+}
+
+
+.links {
+    margin-top: 20px;
+}
+
+.btn {
+    display: block;
+    padding: 12px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+.telegram {
+    background: linear-gradient(135deg, #0088cc, #00c6ff);
+}
+
+.instagram {
+    background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+}
+
+.wathsapp{
+    background: linear-gradient(135deg,rgb(8, 193, 8),rgb(52, 102, 52));
+}
+
+.tell{
+    background: linear-gradient(135deg, rgb(143, 142, 137), rgb(84, 84, 80));
+}
+
+
+.btn:hover {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+
+
+.video-box {
+    margin-top: 15px;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.video-box video {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    opacity: 0.85;
+}
+
